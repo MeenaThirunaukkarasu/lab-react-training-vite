@@ -88,9 +88,9 @@
   width: 30%;
   padding-bottom: 30px;
 }
-/* .bank {
+.bank {
   text-align: left;
-} */
+}
 .master-img {
   height: 30px;
   width: auto;
@@ -129,4 +129,68 @@
 }
 .driver-details {
   width: 80%;
+}
+.btn {
+  padding: 10px;
+  margin: 30px;
+  font-size: 1.5em;
+}
+.glass {
+  width: 15%;
+  position: fixed;
+  top: 380px;
+  left: 530px;
+}
+.image img:nth-child(1) {
+  width: 100%;
+}
+.image button {
+  border-color: transparent;
+  background-color: white;
+}
+.dice img {
+  width: 20%;
+  height: 20%;
+}
+.dice-btn {
+  margin: 18%;
+  border-color: transparent;
+  background-color: white;
+}
+.carousel-img {
+  margin: 30px;
+  width: 30%;
+  height: 50vh;
+}
+.image-btn {
+  padding: 10px 20px;
+  margin: auto;
+  border-color: #61dafb;
+}
+.number-table{
+  width: 80%;
+  margin: auto;
+}
+.number-table table {
+  margin: 30px;
+}
+.number-table table td {
+  font-size: 2em;
+  padding: 30px;
+  border: 3px solid black;
+}
+.facebook-card-content p{
+  font-size: 0.9em;
+}
+.facebook-card-img img{
+width: 250px;
+height: 250px;
+margin: 10px;
+}
+.selected{
+  background-color:aqua;
+}
+.signup form{
+  width: 15%;
+  margin: 40px auto 20px auto;
 }
