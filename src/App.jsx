@@ -1,28 +1,28 @@
 import "./App.css";
-import IdCard from "./components/IdCard";
-import Greetings from "./components/Greetings";
-import Random from "./components/Random";
-import BoxColor from "./components/BoxColor";
-import CreditCard from "./components/CreditCard";
-import Rating from "./components/Rating"
-import DriverCard from "./components/DriverCard";
-import LikeButton from "./components/LikeButton";
-import ClickablePicture from "./components/ClickablePicture";
-import Dice from "./components/Dice";
-import Carousel from "./components/Carousel";
-import NumbersTable from "./components/NumbersTable";
-import FaceBook from "./components/FaceBook";
-import SignupPage from "./components/SignupPage";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import IdCard from "./components/IdCard";
+// import Greetings from "./components/Greetings";
+// import Random from "./components/Random";
+// import BoxColor from "./components/BoxColor";
+// import CreditCard from "./components/CreditCard";
+// import Rating from "./components/Rating"
+// import DriverCard from "./components/DriverCard";
+// import LikeButton from "./components/LikeButton";
+// import ClickablePicture from "./components/ClickablePicture";
+// import Dice from "./components/Dice";
+// import Carousel from "./components/Carousel";
+// import NumbersTable from "./components/NumbersTable";
+// import FaceBook from "./components/FaceBook";
+// import SignupPage from "./components/SignupPage";
+// import "bootstrap/dist/css/bootstrap.min.css";
 // import SingleColorPicker from "./components/SingleColorPicker";
-// import RGBColorPicker from "./components/RGBColorPicker";
+import RGBColorPicker from "./components/RGBColorPicker";
 
 
 
 function App() {
   return (
           <div className="App">
-          <h1>LAB | React Training</h1>
+          {/* <h1>LAB | React Training</h1>
           
       <IdCard
         lastName='Doe'
@@ -136,9 +136,9 @@ function App() {
 
 <SignupPage />
 
-{/* <SingleColorPicker /> */}
+<SingleColorPicker /> */}
 
-{/* <RGBColorPicker /> */}
+<RGBColorPicker />
 
       </div> 
   );

@@ -1,32 +1,25 @@
-// import PropTypes from 'prop-types';
-// // SingleColorPicker component
-// const SingleColorPicker = ({ color, value, onChange }) => {
-//     return (
-//       <div>
-//       <div
-//         style={{
-//           width: '50px',
-//           height: '50px',
-//           backgroundColor: `rgb(${color === 'r' ? value : 0},${color === 'g' ? value : 0},${color === 'b' ? value : 0})`,
-//           margin: '10px',
-//         }}
-//       ></div>
-//         <label htmlFor={`${color}Value`}>{color.toUpperCase()}:</label>
-//         <input
-//           type="number"
-//           id={`${color}Value`}
-//           value={value}
-//           onChange={(e) => onChange(color, parseInt(e.target.value, 10))}
-//           min="0"
-//           max="255"
-//         />
-//       </div>
-//     );
-//   };
-
-// export default SingleColorPicker;
-// SingleColorPicker.propTypes = {
-//   color: PropTypes.oneOf(['r', 'g', 'b']).isRequired,
-//   value: PropTypes.number.isRequired,
+function SingleColorPicker({ color, value, onChange }) {
+    let theme;
+    if (color === "r") {
+      theme = "red";
+    } else if (color === "g") {
+      theme = "green";
+    } else if (color === "b") {
+      theme = "blue";
+    }
   
-// };
+    return (
+      <div className="colorPicker">
+        <div className="color-box">
+          <p
+            className="small-box"
+            style={{ border: `1px solid black`, backgroundColor: `${theme}` }}
+          ></p>
+        </div>
+        <label>{color.toUpperCase()}</label>
+        <input onChange={onChange} type="number" min="0" max="255" />
+      </div>
+    );
+  }
+  
+  export default SingleColorPicker;
